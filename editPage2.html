@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Details</title>
+        <link rel="stylesheet" type="text/css" href="editPage2.css">
+    </head>
+    <label for="education">EDUCATION:</label>
+    <form>
+        <label for="sslc">SSLC/DIPLOMA:</label><br>
+        <textarea rows="5" cols="30" name="sslc"></textarea><br>
+        <label for="puc">PUC:</label><br>
+        <textarea rows="5" cols="30" name="puc"></textarea><br>
+        <label for="ug">UG:</label><br>
+        <textarea rows="5" cols="30" name="ug"></textarea><br>
+    </form>
+    <label for="skills">SKILLS:</label> 
+    <form>
+        <textarea name="skills" rows="10" cols="30">SHOWCASE!!</textarea>
+    </form>
+    <label for="certificates">CERTIFICATES</label>
+    <form action="/submit-profile" method="POST" enctype="multipart/form-data">
+        <input type="file" id="certificates" name="certificates" multiple><br>
+    </form>
+    <label for="extra">EXTRA CURRICULAR:</label><br>
+    <form>
+        <textarea name="extra" rows="10" cols="30">List</textarea>
+    </form>
+    <label for="projects">PROJECTS:</label> 
+    <form>
+        <textarea name="projects" rows="10" cols="30">Any..</textarea>
+    </form>
+    <label for="exp">EXPERIANCES:</label> 
+    <form>
+        <textarea name="exp" rows="10" cols="30">YOUR SPACE...</textarea>
+    </form>
+    <label for="summery">SUMMARY:</label> 
+    <form>
+        <textarea name="summery" rows="10" cols="30">BRIEF....</textarea>
+    </form>
+    <div class="btn"><button type="submit" >SUBMIT</button></div>
+    
+</html>

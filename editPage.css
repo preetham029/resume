@@ -1,0 +1,56 @@
+/* CSS code to style the form */
+#head{
+    text-align: center;
+}
+    
+    form {
+    width: 66%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 4px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+button {
+    background-color: #eb5f24;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="reset"] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e98d65;
+  }
+  input[type="reset"]:hover{
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0);
+    color: #eb5f24;
+  }
+  
